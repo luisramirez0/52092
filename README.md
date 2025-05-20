@@ -1,18 +1,12 @@
 # 52092
-La gramatica que me fue asignada tenia una regla de derivacion que no se llamaba de ninguna parte por lo cual la elimine era " <cadena>::=<caracter>+
+La gramatica que me fue asignada tenia una regla de derivacion que no se llamaba de ninguna parte por lo cual la elimine era " <cadena>::=<caracter>+ " y al eliminar esa regla tambien elimine la de " <caracter> ::= <letra>|<digito>|"_"|"-"|"/" " por que no se llamaba desde otro lugar y tambien tuve que crear la regla de derivacion llamada <accion>
 
 Primero se debe clonar el repositorio con el siguiente comando en el CMD:
 
-git clone https://github.com/fernanra05/52091
+git clone https://github.com/luisramirez0/52092
 
 Lo siguientes es cambiar entrar en la carpeta "Proyecto", para eso colocamos el siguiente comando:
 
-cd Proyectos
+cd PROYECTO ANTLR
 
-Luego ejecutamos el index.js con el comando:
-
-node index.js
-
-Ahora la consola le va a pedir que coloque una ruta de los archivos ejemplos que estan en el repositorio, para eso colocaremos una de las siguientes rutas
-
-"../input-correcto1.txt", "../input-correcto2.txt", "../input-incorrecto1.txt", "../input-incorrecto2.txt"
+Despues hay que cambiar el input.txt de acuerdo al ejemplo que quiera que el analizador verifica si es correcta de acuerdo a la gramatica
