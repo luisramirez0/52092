@@ -7,6 +7,6 @@ git clone https://github.com/luisramirez0/52092
 
 Lo siguientes es cambiar entrar en la carpeta "Proyecto", para eso colocamos el siguiente comando:
 
-cd PROYECTO ANTLR
+cd 52092/PROYECTO ANTLR
 
 Despues hay que cambiar el input.txt de acuerdo al ejemplo que quiera que el analizador verifica si es correcta de acuerdo a la gramatica
