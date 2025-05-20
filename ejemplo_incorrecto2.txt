@@ -1,0 +1,4 @@
+regla bloqueoaccesoilegal { cuando intentoAccesoFueraHorario entonces agregarUsuarioAListaNegra }
+accion agregarUsuarioAListaNegra {}
+regla bloqueoip { cuando intentosFallidos > 3 entonces agregarIPAListaNegra }
+

@@ -1,0 +1,2 @@
+regla monitoreo { cuando accesoARecursosSensibles y no EsAdministrador entonces activarmonitoreoDetallado }
+accion activarmonitoreoDetallado {}

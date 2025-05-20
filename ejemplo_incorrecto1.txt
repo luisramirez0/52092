@@ -1,0 +1,2 @@
+regla usuario { cuando intentoAccesoFueraHorario entonces agregarUsuarioAListaNegra }
+accion agregarUsuarioAListaNegra
