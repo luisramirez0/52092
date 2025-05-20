@@ -1,0 +1,2 @@
+regla bloqueoaccesoilegal { cuando intentoAccesoFueraHorario entonces agregarUsuarioAListaNegra}
+accion agregarUsuarioAListaNegra {}
